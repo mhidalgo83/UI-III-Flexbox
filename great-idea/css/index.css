@@ -150,9 +150,10 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -163,7 +164,6 @@ h5 {
 
 .navbar a {
   text-decoration: none;
-  margin: 0 5%;
   color: gray;
   transition: all 0.2s;
   width: auto;
@@ -175,7 +175,7 @@ h5 {
 }
 
 h1 {
-  font-size: 900%;
+  font-size: 800%;
 }
 
 h3 {
@@ -193,6 +193,7 @@ p {
   height: auto;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 #cta {
@@ -241,12 +242,12 @@ p {
 }
 
 .about {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   margin: 5%;
 }
 
 .about div {
-  display: inline-block;
   width: 48%;
 }
 
@@ -256,13 +257,18 @@ p {
 }
 
 .services {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   margin: 5%;
 }
 
 .services div {
-  display: inline-block;
+  margin-right: 5%;
   width: 31%;
+}
+
+.services div:last-child {
+  margin-right: 0;
 }
 
 address {
