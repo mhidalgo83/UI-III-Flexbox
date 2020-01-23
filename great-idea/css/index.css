@@ -251,8 +251,8 @@ p {
   width: 48%;
 }
 
-.middle-img {
-  margin: 5%;
+.full-img {
+  margin: 0 5%;
   width: 90%;
 }
 
@@ -286,4 +286,9 @@ footer {
 
 .mg-btm-1 {
   margin-bottom: 5%;
+}
+
+.service {
+	margin: 0 5%;
+	width: 100%;
 }
